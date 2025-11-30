@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "instance-tracker"
+version = "0.1.0"
+description = "A metaclass for tracking object instances with weakref and context managers"
+authors = [
+    {name = "ShirinST", email = "e.v.shirinst@outlook.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"

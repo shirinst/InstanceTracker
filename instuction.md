@@ -27,10 +27,11 @@
 
 ```bash
 # Установка напрямую из репозитория
-pip install git+https://github.com/your-username/instance-tracker.git
-
+pip install git+https://github.com/shirinst/InstanceTracker.git
+```
+```
 # Или для разработки
-git clone https://github.com/your-username/instance-tracker.git
+git clone https://github.com/shirinst/InstanceTracker.git
 cd instance-tracker
 pip install -e .
 ```

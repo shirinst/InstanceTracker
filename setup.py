@@ -7,7 +7,7 @@ setup(
     author="ShirinST",
     author_email="e.v.shirinst@outlook.com",
     url="https://github.com/shirinst/InstanceTracker",
-    packages=find_packages(),
+    packages=find_packages("src"),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

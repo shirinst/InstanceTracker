@@ -1,5 +1,4 @@
-from instance_tracker import InstanceCounter
-from contextlib import contextmanager
+from instance_tracker import InstanceCounter, weakref
 import gc
 
 # Создаем классы с нашим метаклассом
